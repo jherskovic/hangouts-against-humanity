@@ -1,7 +1,7 @@
 function initLayout() {
 
     Ext.application({
-        name:'Hangouts Against Humanity',
+        name:'Ars Against Humanity',
         launch:function () {
             //main app layout
             Ext.create('Ext.container.Viewport', {
@@ -100,7 +100,7 @@ function initLayout() {
                         }
                     ]
                 },{
-                    title: 'Hangouts Against Humanity',
+                    title: 'Ars Against Humanity',
                     id: 'sharedArea',
                     region: 'center',     // center region is required, no width/height specified
                     xtype: 'panel',

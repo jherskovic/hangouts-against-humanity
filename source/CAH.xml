@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-    <ModulePrefs title="Hangouts Against Humanity">
+    <ModulePrefs title="Ars Against Humanity">
         <Require feature="rpc"/>
         <Require feature="views"/>
     </ModulePrefs>
@@ -9,40 +9,25 @@
         <!-- Hangout API -->
         <script src="//talkgadget.google.com/hangouts/_/api/hangout.js?v=1.3"></script>
 
-        <!-- Analytics API -->
-        <script type="text/javascript">
-
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-36364793-1']);
-            _gaq.push(['_trackPageview']);
-
-            (function() {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
-
-        </script>
-
         <!-- jQuery -->
-        <script src="//tabletopforge.com/CAH/js/jquery-1.7.2.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
         <!-- ExtJS -->
-        <script src="//tabletopforge.com/CAH/js/ext-all-debug.js"></script>
-        <link rel="stylesheet" href="//tabletopforge.com/CAH/resources/css/ext-all-gray.css">
+        <script charset="utf-8" src="//aah.jorgeherskovic.net/js/ext-all.js""></script>
+        <link rel="stylesheet" href="//aah.jorgeherskovic.net/resources/css/ext-all-gray.css">
 
         <!-- CAH -->
-        <link rel="stylesheet" href="//tabletopforge.com/CAH/css/CAH.css">
-        <script src="//tabletopforge.com/CAH/CAH.hangout.js"></script>
-        <script src="//tabletopforge.com/CAH/data/cards.js"></script>
-        <script src="//tabletopforge.com/CAH/CAH.dataStores.js"></script>
-        <script src="//tabletopforge.com/CAH/CAH.game.js"></script>
-        <script src="//tabletopforge.com/CAH/CAH.layout.js"></script>
-        <script src="//tabletopforge.com/CAH/CAH.js"></script>
+        <link rel="stylesheet" href="//aah.jorgeherskovic.net/css/CAH.css">
+        <script src="//aah.jorgeherskovic.net/CAH.hangout.js"></script>
+        <script src="//aah.jorgeherskovic.net/data/cards.js"></script>
+        <script src="//aah.jorgeherskovic.net/CAH.dataStores.js"></script>
+        <script src="//aah.jorgeherskovic.net/CAH.game.js"></script>
+        <script src="//aah.jorgeherskovic.net/CAH.layout.js"></script>
+        <script src="//aah.jorgeherskovic.net/CAH.js"></script>
 
         <html>
         <head>
-            <title>Hangouts Against Humanity</title>
+            <title>Ars Against Humanity</title>
             <meta http-equiv="Content-Type" content="text/html;	charset = iso - 8859 - 1 "/>
         </head>
         <body>

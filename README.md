@@ -1,7 +1,9 @@
-Hangouts Against Humanity
-=========================
+Hangouts Against Humanity - ArsTechnica version
+===============================================
 
-"Cards Against Humanity"-like game for Google Plus Hangouts
+"Cards Against Humanity"-like game for Google Plus Hangouts, ArsTechnica version. "Ars Against Humanity", if you will. This isn't an Ars-sponsored (or approved!) project; it was born out of the awesome Ars Hangouts Against Humanity Friday night sessions.
+
+Forked from samurailink3's great work.
 
 The eventual goal of this project is to create a javascript framework for this type of card game. The engine will be completely expandable by using a simple JSON file of new cards.
 

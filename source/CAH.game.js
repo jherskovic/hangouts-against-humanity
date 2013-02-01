@@ -43,7 +43,8 @@ function startGame() {
                         { boxLabel: 'Second Expansion', name: 'sets', checked: true, inputValue: 'CAHe2' },
                         { boxLabel: 'Christmas Set', name: 'sets', checked: false, inputValue: 'CAHxmas' },
                         { boxLabel: 'Grognards (fan RPG set)', name: 'sets', checked: false, inputValue: 'CAHgrognards' },
-                        { boxLabel: 'Weeaboo (fan Anime set)', name: 'sets', checked: false, inputValue: 'CAHweeaboo' }
+                        { boxLabel: 'Weeaboo (fan Anime set)', name: 'sets', checked: false, inputValue: 'CAHweeaboo' },
+						{ boxLabel: 'Ars Expansion', name: 'sets', checked: true, inputValue: 'ArsAH'}
 
                     ]
                 },
@@ -589,7 +590,7 @@ function winnerPicked(eventData) {
         readerVideoWindow.center(); readerVideoWindow.setSize(500,300);
         if (user.id == eventData.playerID) {
             console.log("Pancakes should go here!");
-            var pancakes = gapi.hangout.av.effects.createImageResource('https://tabletopforge.com/CAH/img/winner_pancake.png');
+            var pancakes = gapi.hangout.av.effects.createImageResource('https://aah.jorgeherskovic.net/img/winner_pancake.png');
             overlay = pancakes.showFaceTrackingOverlay({
                 'trackingFeature': gapi.hangout.av.effects.FaceTrackingFeature.NOSE_ROOT,
                 'scaleWithFace': true,
