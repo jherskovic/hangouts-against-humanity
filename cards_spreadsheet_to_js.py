@@ -39,13 +39,14 @@ for c in xrange(len(cards)):
     this_card=cards[c]
     this_card['id']=str(id_counter)
     id_counter+=1
-    this_card['text']=this_card['text'][0].upper() + this_card['text'][1:]
-    if this_card['text'][-1] not in punctuation:
-        this_card['text'] += '.'
+    if this_card['expansion'] == 'ArsAH':
+        this_card['text']=this_card['text'][0].upper() + this_card['text'][1:]
+        if this_card['text'][-1] not in punctuation:
+            this_card['text'] += '.'
     cards[c]=this_card
 
 print "Converting", len(cards), "cards to a js file."
 out=open(sys.argv[2], 'w')
 out.write('masterCards = ')
-out.write(json.dumps(cards))
+out.write(json.dumps(cards, separators=(', ', ': '), indent=4))
 out.close()    
